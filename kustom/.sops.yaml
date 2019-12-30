@@ -1,0 +1,5 @@
+creation_rules:
+  - encrypted_regex: '^(data|stringData)$'
+# Specify kms/pgp/etc encryption key
+#     gcp_kms: projects/sandbox-latam-xp/locations/global/keyRings/sops/cryptoKeys/sops-key
+#

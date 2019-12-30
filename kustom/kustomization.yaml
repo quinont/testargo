@@ -1,0 +1,12 @@
+# Example configuration for the webserver
+# at https://github.com/monopole/hello
+commonLabels:
+  app: hello
+
+resources:
+- deploy.yaml
+- autoscaling.yaml
+
+generators: 
+  - ./secret-generator.yaml
+
